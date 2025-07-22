@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffe0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  background: #000;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2rem 0;
+}
+
+nav ul li a {
+  color: #00ffe0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff00cc;
+}
+
+section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #1f1f1f;
+  border-left: 5px solid #00ffe0;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.01);
+}
+
+.technical_skills li {
+  display: inline-block;
+  margin-right: 15px;
+  background: #222;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #00ffe0;
+}
+
+.soft_skills li {
+  display: inline-block;
+  margin-right: 15px;
+  background: #222;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #00ffe0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  background: #2a2a2a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+form button {
+  padding: 10px;
+  background: #00ffe0;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #00c1aa;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem;
+  background: #1a1a1a;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
